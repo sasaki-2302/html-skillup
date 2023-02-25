@@ -8,23 +8,28 @@ header{
   width: auto;
   height: 70px;
   background-color: #EC715F;
+  display: flex;
+  justify-content: center;
 }
 
-.containern{
+.container1{
   width: 1024px;
   height: 70px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
-.logo{
-  height: 70px;
+.container1 > :first-child {
+  margin-right: auto;
 }
 
-ul{
-  text-align: right;
+.logo{
+  height: 70px
+
 }
+
+
 
 li{
   display: inline-block;
@@ -59,7 +64,7 @@ li{
 #portfolio{
   background-color: #ECEFF1;
   width: auto;
-  height: 758px;
+  height: 881px;
 }
 
 .PF-title{
@@ -83,4 +88,155 @@ li{
   padding-bottom: 30px;
   font-size: 16px;
   color: #000000;
+}
+
+.images{
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.image1{
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-image: url(img/sketch.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.image2{
+  width: 300px;
+  height: 250px;
+  background-image: url(img/websuku.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.image3{
+  width: 300px;
+  height: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-image: url(img/write.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.image4{
+  width: 300px;
+  height: 250px;
+  background-image: url(img/webcamp.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.image5{
+  width: 300px;
+  height: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url(img/talk.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.image6{
+  width: 300px;
+  height: 250px;
+  background-image: url(img/webcamp-mother.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.feature{
+  width: 980px
+}
+
+.Fe-title{
+  text-align: center;
+  padding-top: 90px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.Fe-text{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.strengths{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas{
+  font-size: 60px;
+  margin-left: 130px;
+}
+
+.St-title{
+  font-size: 20px;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.St-text{
+  width: 320px;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 90px;
+  margin-left: 5px;
+  margin-right: 5px
+}
+
+#profile{
+  background-color: #ECEFF1;
+  width: auto;
+  height: 881px;
+}
+
+.container2{
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Pe-title{
+  text-align: center;
+  padding-top: 90px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.Pe-text{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom:  30px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.Pe-option{
+  display: flex;
+}
+.Pe-image{
+  width: 250px;
+  height: 250px;
+  background-image: url(img/my-icon.jpg);
+  background-size: cover;
+  background-position: bottom;
 }
