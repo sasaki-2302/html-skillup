@@ -35,10 +35,7 @@ header{
 
 .logo{
   height: 70px
-
 }
-
-
 
 li{
   display: inline-block;
@@ -364,4 +361,285 @@ footer{
   margin-bottom: auto;
   font-size: 16px;
   color: #FAFAFA;
+}
+
+@media screen and (max-width:768px) {
+  header{
+  height: 50px;
+  }
+
+  .container1{
+  width: 90%;
+  height: 50px;
+  }
+
+  .logo{
+    height: 50px
+  }
+
+  .nav-item{
+    display: none;
+  }
+
+  .hamburger {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-color: #EC715F;
+  }
+
+  .hamburger_bar {
+    display: block;
+    width: 70%;
+    height: 4px;
+    position: absolute;
+    left: 15%;
+    background: #FAFAFA;
+  }
+
+  .hamburger_bar:nth-child(1) {
+    top: 25%;
+  }
+
+  .hamburger_bar:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .hamburger_bar:nth-child(3) {
+    top: 75%;
+    transform: translateY(-100%);
+  }
+  #mv{
+    background-image: url(img/code.png);
+    width: auto;
+    height: 650px;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .mv-title{
+    width: 90%;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mv-text{
+    width: 90%;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #portfolio{
+    background-color: #ECEFF1;
+    width: auto;
+    height: 1190px;
+  }
+
+  .PF-text{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sp-none{
+    display: none;
+  }
+
+  .images{
+    width: 90%;
+    display: block;
+  }
+
+  .image2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .image4{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .image6{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+  }
+
+  .Fe-text{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .strengths{
+    display: block;
+  }
+
+  .fas{
+    margin-left: 265px;
+  }
+
+  .fas2 , .fas3{
+    margin-top: 10px;
+  }
+
+  .St-text1 , .St-text2{
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .St-text3{
+    margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #profile{
+    width: auto;
+    height: 100%;
+  }
+
+  .container2{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Pr-text{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Pr-option{
+    display: block;
+  }
+  .Pro-image{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Pro-title{
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  .Pro-text{
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+  }
+
+  .Pro-text2{
+    margin-bottom: 90px;
+  }
+
+  #contact{
+    width: 800px;
+    height: 329px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+  }
+
+  .Co-title{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 32px;
+    color: #000000;
+  }
+
+  .Co-text{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:  30px;
+    font-size: 16px;
+    color: #000000;
+  }
+
+  .container3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Con-adless{
+    height: 250px;
+    width: 400px;
+  }
+
+  .Con-images1{
+    height: 250px;
+    width: 400px;
+    text-align: center;
+  }
+
+  .Con-images2{
+    width: 180px;
+    margin-left: 115px;
+    margin-right: 115px;
+  }
+
+  .Con-title{
+    text-align: left;
+    width: 130px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: #000000;
+  }
+
+  .Con-title2{
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #000000;
+  }
+
+  .Con-text{
+    text-align: left;
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:  20px;
+    color: #000000;
+  }
+
+  .fa{
+    font-size: 50px;
+  }
+
+  .fa-twitter{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  footer{
+    width: auto;
+    height: 60px;
+    background-color: #EC715F;
+    text-align: center;
+  }
+
+  .copyright{
+    line-height: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+    color: #FAFAFA;
+  }
 }
