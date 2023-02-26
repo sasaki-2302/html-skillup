@@ -13,6 +13,10 @@
   color: #212121;
 }
 
+button{
+  display: none
+}
+
 header{
   width: auto;
   height: 70px;
@@ -119,6 +123,7 @@ li{
 .image2{
   width: 300px;
   height: 250px;
+  margin-bottom: 10px;
   background-image: url(img/websuku.png);
   background-size: cover;
   background-position: bottom;
@@ -145,6 +150,7 @@ li{
 .image5{
   width: 300px;
   height: 250px;
+  margin-top: 5px;
   margin-left: 10px;
   margin-right: 10px;
   background-image: url(img/talk.jpg);
@@ -185,11 +191,11 @@ li{
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .fas{
   font-size: 60px;
-  margin-left: 130px;
 }
 
 .St-title{
@@ -203,6 +209,7 @@ li{
 .St-text{
   width: 320px;
   font-size: 16px;
+  text-align: left;
   color: #000000;
   margin-bottom: 90px;
   margin-left: 5px;
@@ -381,6 +388,10 @@ footer{
     display: none;
   }
 
+  button{
+    display: inline-block;
+  }
+
   .hamburger {
     width: 40px;
     height: 40px;
@@ -456,7 +467,6 @@ footer{
   .image2{
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
   }
 
   .image4{
@@ -482,10 +492,6 @@ footer{
   }
 
   .fas{
-    margin-left: 265px;
-  }
-
-  .fas2 , .fas3{
     margin-top: 10px;
   }
 
@@ -543,103 +549,54 @@ footer{
   }
 
   .Pro-text2{
-    margin-bottom: 90px;
+    padding-bottom: 90px;
   }
 
   #contact{
-    width: 800px;
-    height: 329px;
+    width: 90%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 90px;
   }
 
-  .Co-title{
-    text-align: center;
-    margin-top: 90px;
-    font-size: 32px;
-    color: #000000;
-  }
-
-  .Co-text{
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom:  30px;
-    font-size: 16px;
-    color: #000000;
-  }
-
   .container3{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    display: block;
   }
 
   .Con-adless{
-    height: 250px;
-    width: 400px;
-  }
-
-  .Con-images1{
-    height: 250px;
-    width: 400px;
-    text-align: center;
-  }
-
-  .Con-images2{
-    width: 180px;
-    margin-left: 115px;
-    margin-right: 115px;
+    height: auto;
+    width: auto;
   }
 
   .Con-title{
-    text-align: left;
-    width: 130px;
-    margin-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
-    color: #000000;
+    text-align: center;
+    width: auto;
   }
 
   .Con-title2{
-    text-align: left;
-    margin-bottom: 5px;
-    font-size: 20px;
-    color: #000000;
+    text-align: center;
+    width: auto;
   }
 
   .Con-text{
-    text-align: left;
-    width: 130px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom:  20px;
-    color: #000000;
+    text-align: center;
+    width: auto;
   }
 
-  .fa{
-    font-size: 50px;
+  .Con-images1{
+    height: auto;
+    width: auto;
+  }
+
+  .Con-images2{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .fa-twitter{
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  footer{
-    width: auto;
-    height: 60px;
-    background-color: #EC715F;
-    text-align: center;
-  }
-
-  .copyright{
-    line-height: 60px;
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 16px;
-    color: #FAFAFA;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
