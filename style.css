@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+.link1{
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.link2{
+  color: #212121;
+}
+
 header{
   width: auto;
   height: 70px;
@@ -206,7 +215,7 @@ li{
 #profile{
   background-color: #ECEFF1;
   width: auto;
-  height: 881px;
+  height: 621px;
 }
 
 .container2{
@@ -215,14 +224,14 @@ li{
   margin-right: auto;
 }
 
-.Pe-title{
+.Pr-title{
   text-align: center;
   padding-top: 90px;
   font-size: 32px;
   color: #000000;
 }
 
-.Pe-text{
+.Pr-text{
   text-align: center;
   margin-top: 30px;
   margin-bottom:  30px;
@@ -230,13 +239,129 @@ li{
   color: #000000;
 }
 
-.Pe-option{
+.Pr-option{
   display: flex;
 }
-.Pe-image{
+.Pro-image{
   width: 250px;
   height: 250px;
+  margin-left: 131px;
+  margin-right: 131px;
   background-image: url(img/my-icon.jpg);
   background-size: cover;
   background-position: bottom;
+  border-radius:50%;
+}
+
+.Pro-title{
+  text-align: left;
+  width: 512px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.Pro-text{
+  text-align: left;
+  width: 512px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #000000;
+}
+
+#contact{
+  width: 800px;
+  height: 329px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+}
+
+.Co-title{
+  text-align: center;
+  margin-top: 90px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.Co-text{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom:  30px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.container3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Con-adless{
+  height: 250px;
+  width: 400px;
+}
+
+.Con-images1{
+  height: 250px;
+  width: 400px;
+  text-align: center;
+}
+
+.Con-images2{
+  width: 180px;
+  margin-left: 115px;
+  margin-right: 115px;
+}
+
+.Con-title{
+  text-align: left;
+  width: 130px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #000000;
+}
+
+.Con-title2{
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.Con-text{
+  text-align: left;
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:  20px;
+  color: #000000;
+}
+
+.fa{
+  font-size: 50px;
+}
+
+.fa-twitter{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer{
+  width: auto;
+  height: 60px;
+  background-color: #EC715F;
+  text-align: center;
+}
+
+.copyright{
+  line-height: 60px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 16px;
+  color: #FAFAFA;
 }
